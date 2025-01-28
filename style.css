@@ -1,0 +1,105 @@
+body{
+    background-color: #121212;
+    color: white;
+    font-family: 'Courier New';
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+#html-css{
+    display: flex;
+    line-height: 100px;
+    background-color: #2e2f39;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#html, #css{
+    font-weight: bold;
+    background-color: #e34c26;
+    margin: 0;
+    width: 100px;
+    height: 100%;
+}
+
+#css{
+    background-color: #2965f1;
+}
+
+ul{
+    text-align: center;
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+li{
+    padding: 0 10px;
+    width: 100px;
+}
+
+#html-list li:hover{
+    background-color: #ea633d;
+    transition: background-color 0.5s;
+}
+
+#css-list li:hover{
+    background-color: #5474f3;
+    transition: background-color 0.5s;
+}
+
+hr{
+    position: fixed;
+    width: 100%;
+    top: 100px;
+    z-index: 100;
+    margin: 0;
+}  
+
+main{
+    position: relative;
+    padding: 5%;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, 350px);
+    gap: 50px;
+}   
+
+.info-box{
+    border-radius: 20px;
+    height: 200px;
+    width: 350px;
+    background-color: #282828;
+    padding: 20px;
+}
+
+#scroll-up{
+    background-color: #978f8d;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 60px;
+}
