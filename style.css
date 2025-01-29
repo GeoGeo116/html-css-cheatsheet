@@ -1,5 +1,5 @@
 body{
-    background-color: #121212;
+    background-color: #282828;
     color: white;
     font-family: 'Courier New';
     margin: 0;
@@ -65,7 +65,7 @@ li{
     transition: background-color 0.5s;
 }
 
-hr{
+#splitter{
     position: fixed;
     width: 100%;
     top: 100px;
@@ -88,8 +88,9 @@ main{
     border-radius: 20px;
     height: 200px;
     width: 350px;
-    background-color: #282828;
-    padding: 20px;
+    background-color: #3f3f3f;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
 }
 
 #scroll-up{
