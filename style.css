@@ -84,25 +84,32 @@ main{
     position: relative;
     background-color: #282828;
     top: 100px;
-    padding: 0px 50px
+    padding: 0px 50px;
 }
 
 h1{
     padding-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    margin: 0;
 }
 
 .boxes{
-    display: grid;
-    grid-template-columns:repeat(auto-fill, 350px);
+    display: flex;
     gap: 50px;
+    align-items: center;
+    justify-content: center;
 }   
 
 .info-box{
     border-radius: 20px;
-    height: 200px;
-    width: 350px;
+    min-height: 200px;
+    min-width: 350px;
     background-color: #3f3f3f;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 5px 5px 10px black;
 }
 
